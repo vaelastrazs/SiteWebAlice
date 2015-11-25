@@ -19,13 +19,35 @@ time, mark, audio, video {
 	vertical-align: baseline;
 } /* De pour toutes les balises, pas de margins/padding/border, simplifie la vie */
 
-.iconmenu{
+.iconfooter{
     height:50px;
     width:50px;
     display:inline-block;
-    margin
+    padding-left:30px;
+    
     
 }
+
+p{
+    text-align:justify;
+}
+
+#content{
+    width:60%;
+    margin:0 auto;
+}
+
+.navspace{
+    padding-left:80px;
+}
+
+
+#footer{
+     width:60%;
+    margin:0 auto;
+    padding-left:45%;
+}
+
 
 header{
 background-color: #000000;
@@ -35,7 +57,7 @@ color: #ffffff;
 	header #banniere{
 		margin: 0 auto;
 		width: 255px;
-		height: 33px;
+		height: 100px;
 		text-align: center;
 	}
 
