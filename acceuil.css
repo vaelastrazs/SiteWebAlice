@@ -28,6 +28,8 @@ time, mark, audio, video {
     
 }
 
+
+
 p{
     text-align:justify;
 }
@@ -35,6 +37,7 @@ p{
 #content{
     width:60%;
     margin:0 auto;
+    
 }
 
 
@@ -52,7 +55,7 @@ p{
 
 
 header{
-background-color: #000000;
+background-color: #444444;
 color: #ffffff;
 }
 
