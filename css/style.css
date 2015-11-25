@@ -1,19 +1,27 @@
 .da-thumbs {
 	list-style: none;
-	width: 984px;
+	width: 80%;
 	height: 600px;
 	position: relative;
 	margin: 20px auto;
 	padding: 0;
 }
 .da-thumbs li {
-	float: left;
 	margin: 20px;
 	background: #fff;
 	padding: 40px;
 	position: relative;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+
+#carte1{
+	float: left;
+}
+
+#carte2{
+	float: right;
+}
+
 .da-thumbs li a,
 .da-thumbs li a img {
 	display: block;
