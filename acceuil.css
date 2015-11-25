@@ -38,9 +38,14 @@ p{
 }
 
 .navspace{
-    padding-left:80px;
+    padding-left:20%;
 }
 
+#cvimg{
+    padding-top:30px;
+    width:100%;
+    
+}
 
 #footer{
      width:60%;
