@@ -19,20 +19,34 @@ time, mark, audio, video {
 	vertical-align: baseline;
 } /* De pour toutes les balises, pas de margins/padding/border, simplifie la vie */
 
+
+@font-face{
+font-family:"GeosansLight.ttf";
+src:url("Typo/GeosansLight.ttf");
+}
+
+@font-face{
+font-family:"Avenir.ttc";
+src:url("Typo/Avenir.ttc");
+}
+
 .iconfooter{
     height:50px;
     width:50px;
     display:inline-block;
-    padding-left:30px;
-    
-    
+    padding-left:30px; 
 }
 
 
+nav{
+    
+    font-family: "avenir.ttc";
+}
 
 p{
     text-align:justify;
     color:#262324;
+    font-family:  "geosanslight.ttf";
 }
 
 #content{
