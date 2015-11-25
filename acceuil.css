@@ -66,7 +66,7 @@ color: #ffffff;
 	header nav{
 		margin: 0 auto;
 		width: 50%;
-		height: 25px
+		height: 3em
 	}
 	
 	.menu li{
@@ -80,6 +80,7 @@ color: #ffffff;
 	.menu li a{
 		color: #fefefe;
 		text-decoration: none;
+		padding-bottom: 1em;
 	}
 
 #image-acceuil{
