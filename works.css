@@ -20,10 +20,27 @@ time, mark, audio, video {
 } /* De pour toutes les balises, pas de margins/padding/border, simplifie la vie */
 
 #contentworks{
+	padding-top:2em;
     background-color:#262324;
     
 }
 
+.mainTable{
+	width : 66em;
+	align: center; 
+	border: 0;
+	border-spacing: 2em;
+    border-collapse: separate;
+
+}
+
+.miniature{
+	border: 0;
+	height: 30em;
+	width: 15em; 
+	margin: 0;
+	padding: 0;
+}
 
 #footer{
      width:60%;
