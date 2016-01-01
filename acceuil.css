@@ -42,6 +42,15 @@ src:url("Typo/Avenir.ttc");
   padding-top:10px;
 }
 
+#banniere img{
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+
+
 nav{
     
     font-family: "avenir.ttc";
