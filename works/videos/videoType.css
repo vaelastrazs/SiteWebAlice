@@ -139,6 +139,7 @@ color: #ffffff;
 #content{
 	width : 80%;
 	display : block;
+	padding-top: 2em;
 }
 
 #main-content{
@@ -146,7 +147,12 @@ color: #ffffff;
 	height: 120em;
 }
 
+#video{
+	width : 702px;
+	height : 420px;
+}
+
 #description{
-	width : 30em;
-	float : right;
+    width: 23.5%;
+    float: right;
 }
