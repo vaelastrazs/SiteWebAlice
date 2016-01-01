@@ -98,6 +98,35 @@ color: #ffffff;
 		text-decoration: none;
 		padding-bottom: 1em;
 	}
+	
+#pagination{
+	background-color: #888888;
+	color: #ffffff;
+}
+	#pagination div a{
+		color: #fefefe;
+		text-decoration: none;
+	}
+.library{
+	display : inline-block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width : 40%;
+	padding-left : 20%;
+}
+.prev{
+	display : inline-block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width : 15%;
+}
+
+.next{
+	display : inline-block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width : 15%;
+}
 
 #image-acceuil{
 	display: block;
