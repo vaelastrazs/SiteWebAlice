@@ -35,6 +35,14 @@ nav{
     font-family: "avenir.ttc";
 }
 
+.titrepage{
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+
 #contentworks{
 	padding-top:2em;
     background-color:#262324;
