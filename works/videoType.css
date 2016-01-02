@@ -47,12 +47,15 @@ src:url("../Typo/Avenir.tff");
 
 #main-content{
 	display: inline-block;
+	width : 65%;
 }
 
 .video{
-	width : 670px;
-	height : 420px;
+	width : 90%;
+	height : auto;
+	margin : auto;
 	display : block;
+	padding-bottom : 2em;
 }
 
 #screenshot{
@@ -70,7 +73,7 @@ text-transform: uppercase;
 
 
 #messaging{	
-    width: 30em;
+    width: 30%;
     float: right;
 	font-family: "Geosanslight.ttf";
 }
@@ -103,6 +106,7 @@ color: rgb(128, 128, 128);
 }
 
 .miniature{
+	float : left;
 	border: 0;
 	max-width: 10em;
 	max-width: 15em;
