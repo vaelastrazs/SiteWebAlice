@@ -25,6 +25,10 @@ font-family:"GeosansLight.ttf";
 src:url("Typo/GeosansLight.ttf");
 }
 
+body{
+min-width : 800px;
+}
+
 @font-face{
 font-family:"Avenir.ttc";
 src:url("Typo/Avenir.ttc");

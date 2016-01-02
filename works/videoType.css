@@ -39,19 +39,20 @@ src:url("../Typo/Avenir.tff");
 }
 
 #content{
-	display : inline-block;
+	display : block;
 	padding-top: 2em;
-	width : 100%;
+	width : 70%;
+	margin : auto;
 }
 
 #main-content{
 	display: inline-block;
-	padding-left : 10%;
 }
 
-#video{
+.video{
 	width : 670px;
 	height : 420px;
+	display : block;
 }
 
 #screenshot{
@@ -69,8 +70,7 @@ text-transform: uppercase;
 
 
 #messaging{	
-	padding-right : 10%;
-    width: 23.5%;
+    width: 30em;
     float: right;
 	font-family: "Geosanslight.ttf";
 }
@@ -94,6 +94,22 @@ color: rgb(128, 128, 128);
 	text-align:justify;
     color:#262324;
 	
+}
+
+.mainTable{
+	border-spacing: 2em;
+    border-collapse: separate;
+
+}
+
+.miniature{
+	border: 0;
+	max-width: 10em;
+	max-width: 15em;
+    width: auto;
+    height: auto;
+	margin: 0;
+	padding: 0;
 }
 
 
