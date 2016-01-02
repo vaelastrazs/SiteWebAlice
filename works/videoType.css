@@ -1,11 +1,11 @@
 @font-face{
 font-family:"GeosansLight.ttf";
-src:url("../../Typo/GeosansLight.ttf");
+src:url("../Typo/GeosansLight.ttf");
 }
 
 @font-face{
 font-family:"Avenir.ttc";
-src:url("../../Typo/Avenir.ttc");
+src:url("../Typo/Avenir.tff");
 }
 
 	
@@ -50,7 +50,7 @@ src:url("../../Typo/Avenir.ttc");
 }
 
 #video{
-	width : 702px;
+	width : 670px;
 	height : 420px;
 }
 
@@ -82,6 +82,7 @@ text-transform: uppercase;
 	text-transform: uppercase;
 }
 .altTitle{
+    
 color: rgb(128, 128, 128);
 }
 
