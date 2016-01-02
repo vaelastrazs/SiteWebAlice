@@ -5,7 +5,7 @@ src:url("../Typo/GeosansLight.ttf");
 
 @font-face{
 font-family:"Avenir.ttc";
-src:url("../Typo/Avenir.tff");
+src:url("../Typo/Avenir.ttc");
 }
 
 	
@@ -66,8 +66,8 @@ src:url("../Typo/Avenir.tff");
 }
 
 #screenshot h1{
-	font-family:  "Avenir.ttf";
-	font-weight: bold;
+	font-family:"avenir.ttc";
+	
 text-transform: uppercase;
 }
 

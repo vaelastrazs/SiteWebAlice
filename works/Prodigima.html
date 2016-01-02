@@ -4,6 +4,11 @@
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="../acceuil.css" />
 		<link rel="stylesheet" href="videoType.css" />
+        
+            <script src="../lightbox/js/jquery-1.10.2.min.js"></script>
+        <script src="../lightbox/js/lightbox-2.6.min.js"></script>
+        <link href="../lightbox/css/lightbox.css" rel="stylesheet" />
+        
 		<title>Video Type</title>
 	</head>
 		
@@ -51,7 +56,7 @@
 		
 			
 			 <video class="video" controls="controls">
-				<source src="../rscVideos/ATV.mp4" type="video/mp4" />
+				<source src="../rscVideos/ATV.mp4" type="video/mp4"/>
 			</video>
 			
 			<div id="screenshot">
@@ -60,8 +65,14 @@
 			
 			<tbody> 
                 <tr> 
-					<td><img class="miniature" src="../screen/prodigima0.png"></td> 
-					<td><img class="miniature" src="../screen/prodigima1.png"></td> 
+					<td><a href="../screen/prodigima0.png" data-lightbox="prodigima" title="Screen Teaser CNES"><img class="miniature" src="../screen/prodigima0.png"></a></td> 
+					<td><a href="../screen/prodigima1.png" data-lightbox="prodigima" title="Screen Teaser CNES"><img class="miniature" src="../screen/prodigima1.png"></a></td> 
+                   
+				</tr>
+                 <tr> 
+                      <td><a href="../screen/prodigima2.png" data-lightbox="prodigima" title="Screen Teaser CNES"><img class="miniature" src="../screen/prodigima2.png"></a></td> 
+					<td><a href="../screen/prodigima3.png" data-lightbox="prodigima" title="Screen Teaser CNES"><img class="miniature" src="../screen/prodigima3.png"></a></td> 
+					
 				</tr>
 			</tbody> 
 		</table>
