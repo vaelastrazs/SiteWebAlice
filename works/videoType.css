@@ -106,12 +106,9 @@ color: rgb(128, 128, 128);
 }
 
 .miniature{
-	float : left;
 	border: 0;
-	max-width: 10em;
-	max-width: 15em;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 140px;
 	margin: 0;
 	padding: 0;
 }
