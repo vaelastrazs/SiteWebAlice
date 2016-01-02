@@ -116,11 +116,11 @@ color: #ffffff;
 
 #image-acceuil{
 	display: block;
-	width: 50%;
+	width: 100%;
 	margin-top: 30px;
 	margin-bottom : 30px;
-	height: 201px;
-	background-image: url(imgmenu/roinoir.png);
+	height:400px;
+	background-image: url(imgmenu/imgprincipal2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 }	
