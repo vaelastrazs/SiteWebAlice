@@ -66,6 +66,10 @@ p{
     font-family:  "geosanslight.ttf";
 }
 
+.italic{
+    font-style: italic;
+}
+
 #content{
     width:60%;
     margin:0 auto;
