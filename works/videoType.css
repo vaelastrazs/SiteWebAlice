@@ -80,8 +80,7 @@ text-transform: uppercase;
 
 .mainTitle .altTitle{
 	display: block;
-	font-family: "Avenir.ttf";
-	font-weight: bold;
+	font-family:"avenir.ttc";
 	text-transform: uppercase;
 }
 .altTitle{
@@ -113,5 +112,11 @@ color: rgb(128, 128, 128);
 	padding: 0;
 }
 
-
+.miniature2{
+	border: 0;
+    width: 400px;
+    height: 350px;
+	margin: 0;
+	padding: 0;
+}
 
