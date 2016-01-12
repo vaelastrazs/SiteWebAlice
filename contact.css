@@ -1,0 +1,17 @@
+#content #left-content {
+	padding-top: 35%;
+    height: 100%;
+	display: block;
+	float : left;
+	width : 35%;
+	padding-right : 10px;
+}
+
+#content #right-content {
+	padding-top: 35%;
+	display: block;
+	float : right;
+	width : 60%;
+	height: 100%;
+	padding-left : 10px;
+}
