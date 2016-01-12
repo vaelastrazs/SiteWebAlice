@@ -1,6 +1,15 @@
+#content{
+	position: absolute;
+    bottom: 0px;
+	right : 0px;
+	left : 0px;
+}
+
 #content #left-content {
+	position: absolute;
+	left : 0px;
+    bottom: 20px;
 	padding-top: 35%;
-    height: 100%;
 	display: block;
 	float : left;
 	width : 35%;
@@ -8,10 +17,23 @@
 }
 
 #content #right-content {
+	position: absolute;
+    bottom: 5px;
+	right : 0px;
 	padding-top: 35%;
 	display: block;
 	float : right;
 	width : 60%;
-	height: 100%;
 	padding-left : 10px;
+}
+
+.follow {
+	margin : 1em 2em 0.5em 2em;
+    align-content: center;
+    -webkit-align-content: center;
+}
+
+.follow a{
+	display: inline-block;
+	width : 32%;
 }
