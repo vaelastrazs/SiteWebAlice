@@ -8,7 +8,7 @@
 #content #left-content {
 	position: absolute;
 	left : 0px;
-    bottom: 20px;
+    bottom: 400px; /* hauteur a laquelle tu veux mettre WHO DAME IS ME */
 	padding-top: 35%;
 	display: block;
 	float : left;
@@ -18,7 +18,7 @@
 
 #content #right-content {
 	position: absolute;
-    bottom: 5px;
+    bottom: 5px; /* hauteur a laquelle tu veux mettre le bloc bio*/
 	right : 0px;
 	padding-top: 35%;
 	display: block;
