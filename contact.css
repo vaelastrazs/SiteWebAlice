@@ -8,7 +8,7 @@
 #content #left-content {
 	position: absolute;
 	left : 0px;
-    bottom: 400px; /* hauteur a laquelle tu veux mettre WHO DAME IS ME */
+    bottom: 300px; /* hauteur a laquelle mettre WHO DAME IS ME */
 	padding-top: 35%;
 	display: block;
 	float : left;
@@ -18,7 +18,7 @@
 
 #content #right-content {
 	position: absolute;
-    bottom: 5px; /* hauteur a laquelle tu veux mettre le bloc bio*/
+    bottom: 5px; /* hauteur a laquelle mettre le bloc bio*/
 	right : 0px;
 	padding-top: 35%;
 	display: block;
@@ -36,4 +36,13 @@
 .follow a{
 	display: inline-block;
 	width : 32%;
+}
+
+@font-face{
+font-family:"GeosansLight.ttf";
+src:url("Typo/GeosansLight.ttf");
+}
+
+h1{
+    font-family:  "geosanslight.ttf";
 }
