@@ -9,7 +9,6 @@
 	position: absolute;
 	left : 0px;
     bottom: 300px; /* hauteur a laquelle mettre WHO DAME IS ME */
-	padding-top: 35%;
 	display: block;
 	float : left;
 	width : 35%;
@@ -20,7 +19,6 @@
 	position: absolute;
     bottom: 5px; /* hauteur a laquelle mettre le bloc bio*/
 	right : 0px;
-	padding-top: 35%;
 	display: block;
 	float : right;
 	width : 60%;
