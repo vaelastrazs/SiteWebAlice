@@ -12,7 +12,7 @@
         <script src="js/modernizr.custom.97074.js"></script>
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
         
-        	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="js/modernizr.custom.97074.js"></script>
 		<script type="text/javascript" src="js/jquery.hoverdir.js"></script> 	
@@ -22,6 +22,19 @@
 				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
 
 			});
+		</script>
+		<script language="JavaScript" type="text/javascript">
+		// showMenu function 
+		function showRanksSubmenu() {
+			document.getElementById("rankSubMenu").style.visibility = "visible";
+			document.getElementById("rankSubMenu").style.display = "block";
+		}
+		
+		// hideAll function 
+		function hideRanksSubmenu() {
+			document.getElementById("rankSubMenu").style.visibility = "hidden";
+			document.getElementById("rankSubMenu").style.display = "none";
+		}
 		</script>
         
 		<title>Alice BENOIT</title>
@@ -36,12 +49,17 @@
 			<img src="imgmenu/titre.png" />
 		</div>
 
-			<nav>
-				<ul id="menu-main-navigation" class="menu">
-				<li id="home"><a href="index.html">Home</a></li>
-				<li id="work"><a title="See Featured Work" href="works.html">Work</a></li>
-				<li id="contact"><a href="contact.html">Contact</a></li>
-				<li id="cv"><a href="cv.html">CV</a></li>
+		<nav>
+			<ul id="menu-main-navigation" class="menu">
+				<li id="home" class="menuItem"><a href="index.html">Home</a></li>
+				<li id="work" class="menuItem"><a href="#" onmouseover="showRanksSubmenu();" onmouseout="hideRanksSubmenu();">Work</a>
+					<ul id="rankSubMenu" onmouseover="showRanksSubmenu();"  onmouseout="hideRanksSubmenu();">
+						<li id="numerique" class="rankSubItem"><a href="Numerique.php" style="width: auto; align-self: center;">Numérique</a></li>
+						<li id="print" class="rankSubItem"><a href="Print.php" style="width: auto; align-self: center;">Print</a></li>
+					</ul>
+				</li>
+				<li id="contact" class="menuItem"><a href="contact.html">Contact</a></li>
+				<li id="cv" class="menuItem"><a href="cv.html">CV</a></li>
 			</ul>	
 		
 		</nav><!-- /#access -->

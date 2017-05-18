@@ -21,17 +21,17 @@ time, mark, audio, video {
 
 
 @font-face{
-font-family:"GeosansLight.ttf";
-src:url("Typo/GeosansLight.ttf");
+	font-family:"GeosansLight.ttf";
+	src:url("Typo/GeosansLight.ttf");
 }
 
 body{
-min-width : 800px;
+	min-width : 800px;
 }
 
 @font-face{
-font-family:"Avenir.ttc";
-src:url("Typo/Avenir.ttc");
+	font-family:"Avenir.ttc";
+	src:url("Typo/Avenir.ttc");
 }
 
 .iconfooter{
@@ -42,8 +42,8 @@ src:url("Typo/Avenir.ttc");
 }
 
 #banniere{
-     font-family: "avenir.ttc";
-  padding-top:10px;
+	font-family: "avenir.ttc";
+	padding-top:10px;
 }
 
 #banniere img{
@@ -55,8 +55,7 @@ src:url("Typo/Avenir.ttc");
 }
 
 
-nav{
-    
+nav{  
     font-family: "avenir.ttc";
 }
 
@@ -84,43 +83,50 @@ p{
 }
 
 #footer{
-     width:60%;
+    width:60%;
     margin:0 auto;
     padding-left:45%;
 }
 
 
 header{
-background-color: #444444;
-color: #ffffff;
+	background-color: #444444;
+	color: #ffffff;
 }
 
-	header #banniere{
-		margin: 0 auto;
-		width: 255px;
-		height: 100px;
-		text-align: center;
-	}
+header #banniere{
+	margin: 0 auto;
+	width: 255px;
+	height: 100px;
+	text-align: center;
+}
 
-	header nav{
-		margin: 0 auto;
-		width: 40%;
-		height: 3em
-	}
-	
-	.menu li{
-		display: inline-block;
-		width: 24%;
-		margin: 0 auto;
-		text-align: center;
-		text-transform: uppercase;
-	}
-	
-	.menu li a{
-		color: #fefefe;
-		text-decoration: none;
-		padding-bottom: 1em;
-	}
+header nav{
+	margin: 0 auto;
+	width: 40%;
+	height: 3em
+}
+
+.menu{
+	position: relative;
+	height: 3em;
+}
+
+.menuItem{
+	display: inline-block;
+	width: 24%;
+	height: 3em;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.menuItem a{
+	display: inline-block;
+	color: #fefefe;
+	text-decoration: none;
+	height: 3em;
+}
 
 #image-acceuil{
 	display: block;
@@ -131,4 +137,29 @@ color: #ffffff;
 	background-image: url(imgmenu/imgprincipal2.png);
 	background-repeat: no-repeat;
 	background-position: center;
-}	
+}
+
+#rankSubMenu {
+	position: absolute;
+	display: none;
+	width:150px;
+	height: 4em;
+	background-color: #444444;
+}
+.rankSubItem {
+	display : inline-block;
+	align-content: left;
+	height: 2em;
+	width: 100%;
+	background-color: #444444;
+}
+
+.rankSubItem a {
+	color: #fefefe;
+	height: 2em;
+	position: relative;
+	display : inline-block;
+	text-align: center;
+	text-transform: uppercase;	
+	background-color: #444444;
+}

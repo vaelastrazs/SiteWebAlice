@@ -184,3 +184,25 @@ figure.effect-layla:hover img {
 	font-size: 24px;
 	font-weight: 700;
 }
+
+.pagesManager{
+	width: 100%;
+	position: relative;
+	display : inline-block;
+	text-align: center;
+	background-color: #444444;
+	color: #fefefe;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;	
+}
+
+.pagesManager a{
+	color: #fefefe;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-decoration: none;
+	font-style: 
+	font-size: 24px;
+	text-transform: uppercase;	
+}
